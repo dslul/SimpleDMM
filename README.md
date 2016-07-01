@@ -1,5 +1,7 @@
 # SimpleDMM
 
+![Main window](https://github.com/dslul/SimpleDMM/blob/master/simpledmm.png)
+
 Easy to use program to view and store data from digital multimeters. It uses libsigrok API, which supports many DMMs.
 List of supported devices: http://sigrok.org/wiki/Supported_hardware#Multimeters
 
