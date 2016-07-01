@@ -216,11 +216,11 @@ public class MainController {
 			        	series.getData().add(new XYChart.Data<Number,Number>(meas.getTimeMillis(), meas.getValue()))
 			        );
 				}
-				try {
-					Thread.sleep(500);
-				} catch (InterruptedException e) {
-					System.out.println(e.getMessage());
-				}
+//				try {
+//					Thread.sleep(500);
+//				} catch (InterruptedException e) {
+//					System.out.println(e.getMessage());
+//				}
 			}
 		}
 	}

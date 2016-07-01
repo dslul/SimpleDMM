@@ -21,8 +21,8 @@ public class Measurement {
 	public Measurement(String text) {
 		String[] tmp = text.split(System.getProperty("line.separator"))[0].split(" ");
 		String valueStr = tmp[1];
-		try {			
-			this.value = NumberFormat.getNumberInstance(Locale.US).parse(valueStr).floatValue();
+		try {
+			this.value = NumberFormat.getNumberInstance(Locale.getDefault()).parse(valueStr).floatValue();
 		} catch (ParseException e) {
 			isValid = false;
 			System.out.println(valueStr);
